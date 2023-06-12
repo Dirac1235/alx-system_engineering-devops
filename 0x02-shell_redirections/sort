@@ -1,0 +1,15 @@
+total 52
+-rwxr--r-- 1 root root 32 Jun 12 09:13 0-hello_world
+-rwxr--r-- 1 root root 48 Jun 12 10:11 10-no_more_js
+-rwxr--r-- 1 root root 52 Jun 12 10:31 11-directories
+-rwxr--r-- 1 root root 28 Jun 12 09:18 1-confused_smiley
+-rwxr--r-- 1 root root 28 Jun 12 09:22 2-hellofile
+-rwxr--r-- 1 root root 39 Jun 12 09:25 3-twofiles
+-rwxr--r-- 1 root root 35 Jun 12 09:31 4-lastlines
+-rwxr--r-- 1 root root 35 Jun 12 09:35 5-firstlines
+-rwxr--r-- 1 root root 36 Jun 12 09:41 6-third_line
+-rwxr--r-- 1 root root 98 Jun 12 09:55 7-file
+-rwxr--r-- 1 root root 36 Jun 12 09:57 8-cwd_state
+-rwxr--r-- 1 root root 35 Jun 12 10:06 9-duplicate_last_line
+-rw-r--r-- 1 root root 55 Jun 12 09:11 README.md
+-rw-r--r-- 1 root root  0 Jun 12 10:36 sort
