@@ -1,2 +1,2 @@
 #!/bin/bash
-sed 'y/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz/N-ZA-Mn-za-m/'
+tr 'A-Za-z' 'N-Zn-za-m' | fold -w 80
