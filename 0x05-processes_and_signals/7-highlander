@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# prints i am invisible when sigterm siginal is sent
 while true
 do
   echo "To infinity and beyond"
