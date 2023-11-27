@@ -1,4 +1,6 @@
 #!/bin/env bash
+# prints best school
+
 for i in {0..10};
 do echo "Best School";
    done;

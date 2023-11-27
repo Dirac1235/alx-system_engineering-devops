@@ -1,4 +1,6 @@
 #!/bin/env bash
+# prints the list items
+
 for i in `ls`
 do
 	echo $i

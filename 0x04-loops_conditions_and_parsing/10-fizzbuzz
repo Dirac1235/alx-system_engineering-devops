@@ -1,4 +1,6 @@
 #!/bin/env bash
+# prints fizz buzz based on multiplicites
+
 for i in {1..100}
 do
     if [ $((i % 3)) -eq 0 -a $((i % 5)) -eq 0 ]

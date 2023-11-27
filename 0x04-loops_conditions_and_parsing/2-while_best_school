@@ -1,4 +1,6 @@
 #!/bin/env bash
+# prints best school using while loop
+
 x=0
 while [ $x -le 9 ]
 do

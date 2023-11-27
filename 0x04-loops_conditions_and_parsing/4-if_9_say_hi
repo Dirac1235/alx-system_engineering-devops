@@ -1,4 +1,6 @@
 #!/bin/env bash
+# prints hi at 9th place else prints Best school
+
 x=0
 while [ $x -le 9 ]
 do

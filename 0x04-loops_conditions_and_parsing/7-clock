@@ -1,4 +1,6 @@
 #!/bin/env bash
+# prints minutes and hours
+
 minute=0
 hour=0
 echo "Hour: $hour"

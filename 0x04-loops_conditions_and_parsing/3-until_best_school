@@ -1,4 +1,6 @@
 #!/bin/env bash
+# prints Best school using until loop
+
 x=0
 until [ $x -gt 9 ]
 do

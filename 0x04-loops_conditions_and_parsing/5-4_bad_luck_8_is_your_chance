@@ -1,4 +1,6 @@
 #!/bin/env bash
+# prints words based on the number x
+
 x=0
 while [ $x -le 9 ]
 do
