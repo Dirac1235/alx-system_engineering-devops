@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 # prints the list items
 
 for i in `ls`

@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 # prints hi at 9th place else prints Best school
 
 x=0

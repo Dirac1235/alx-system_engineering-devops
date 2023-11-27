@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 # prints Best school using until loop
 
 x=0
