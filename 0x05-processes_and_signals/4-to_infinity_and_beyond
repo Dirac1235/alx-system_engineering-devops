@@ -1,5 +1,5 @@
 #!/bin/env bash
-#infinite loop
+# infinite loop
 
 while true
 do
