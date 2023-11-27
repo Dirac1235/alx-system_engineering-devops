@@ -1,18 +1,16 @@
 #!/usr/bin/env bash
-# prints words based on the number x
+# Displays numbers from 1 to 20
+# prints where the superstitious number is
 
-x=0
-while [ $x -le 9 ]
+count=1
+
+while [ $count -le 20 ]
 do
-if [ $x -eq 4 ]
-then
-echo "bad luck"
-
-elif [ $x -eq 7 ]
-then
-echo "good luck"
-else
-echo "Best School"
-fi
-x=$(( $x + 1))
+  echo "$count"
+  case $count in
+    "4") echo "bad luck from China";;
+    "9") echo "bad luck from Japan";;
+    "17") echo "bad luck from Italy";;
+  esac
+  (( count++ ))
 done
