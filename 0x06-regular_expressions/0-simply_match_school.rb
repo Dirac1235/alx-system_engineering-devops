@@ -1,2 +1,4 @@
 #!/usr/bin ruby
-School
+#this is ruby regular expression
+/School/
+
