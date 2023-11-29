@@ -1,4 +1,2 @@
 #!/usr/bin ruby
-#this is ruby regular expression
-/School/
-
+puts ARGV[0].scan(/School/).join
