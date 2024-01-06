@@ -1,1 +1,23 @@
+<<<<<<< HEAD
 https://drive.google.com/file/d/1IfhuyrtMgIIkU6v-z8DufGiEJhFKXhtQ/view?usp=sharing
+=======
+ALX Project Web infrastructure design
+Task 0. Definitions and Explanations.
+1. What is a server; A server is a device, a virtual device or computer program or providing functionality for other programs or devices, called “clients”.
+2. What is the role of a domain name; A domain name serves to identify Internet resources, such as computers, networks, and services with a text-based label that is easier to memorize than numerical addresses (IP addresses).
+3. What type of DNS record www is in www.foobar.com; It is a ‘cname’.
+4. What is the role of the Web Server; The role of a Web Server is to store, process and display website contents (codebase); deliver web pages to users (basically HTML and CSS) over the protocol HTTP.
+5. What is the role of the application server; The role of the application server is to generate dynamic contents by executing server-side code such as JSP, Ajax, PHP, etc.
+6. What is the role of the database; The role of a database is to manage data systematically and efficiently in a well-organized manner which allows data to be easily added, accessed, updated, managed, and deleted.
+7. What is the server using to communicate with the computer of the user requesting the website; The server communicates through HTTP protocol.
+Issues
+SPOF (Single Point of Failure):
+Problem: A Single Point of Failure means that there is a component in the system that, if it fails, can bring down the entire system. This could be a single server, a network device, or any other critical component.
+Consequence: If the SPOF fails, it can lead to downtime and service unavailability until the issue is resolved. This makes the system less robust and more susceptible to disruptions.
+Downtime during Maintenance:
+Problem: When maintenance tasks, such as deploying new code or updating software, are required, the web server needs to be restarted. During this time, the service may be temporarily unavailable.
+Consequence: Downtime during maintenance can impact user experience and disrupt services. In scenarios where continuous availability is crucial, such as in e-commerce or critical applications, this downtime can be problematic.
+Scalability Challenges:
+Problem: The inability to scale with an increase in incoming traffic indicates a lack of scalability in the infrastructure. This could be due to limitations in hardware, software architecture, or the overall design of the system.
+Consequence: Inability to scale means that during periods of high traffic, the system may become overloaded, leading to degraded performance or complete unavailability. This can result in poor user experience and potential loss of business or opportunities.
+>>>>>>> fce60de13bd3fb43eb84acaa263409221a87c063
